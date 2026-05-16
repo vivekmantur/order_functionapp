@@ -1,0 +1,18 @@
+[
+    {
+        "customer_name": "Vivek",
+        "product_name": "Laptop",
+        "quantity": 6,
+        "price": 50000,
+        "timestamp": "2026-05-16T10:24:04.053198",
+        "summary_generated": false
+    },
+    {
+        "customer_name": "Kalyan",
+        "product_name": "Mobile",
+        "quantity": 7,
+        "price": 70000,
+        "timestamp": "2026-05-16T10:31:05.621034",
+        "summary_generated": false
+    }
+]

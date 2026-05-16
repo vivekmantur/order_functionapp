@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "%ORDER_SUMMARY_CRON%",
+      "runOnStartup": true,
+      "useMonitor": false
+    }
+  ]
+}

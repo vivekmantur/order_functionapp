@@ -1,0 +1,34 @@
+# Azure Functions local settings can contain secrets and connection strings.
+local.settings.json
+
+# Python cache and build artifacts.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments.
+.venv/
+venv/
+env/
+
+# Azure Functions local runtime artifacts.
+.python_packages/
+.azurite/
+bin/
+obj/
+appsettings.json
+
+# Local editor and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs.
+*.log
